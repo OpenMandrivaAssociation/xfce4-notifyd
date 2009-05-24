@@ -13,7 +13,7 @@ BuildRequires:	dbus-glib-devel
 BuildRequires:	intltool
 BuildRequires:	libxfce4util-devel
 BuildRequires:	libxfcegui4-devel
-BuildRequires:	libnotification-devel
+BuildRequires:	libnotify-devel
 Provides:	virtual-notification-daemon
 Obsoletes:	notification-daemon-xfce
 Conflicts:	notification-daemon
