@@ -2,8 +2,8 @@
 
 Summary: 	Notification daemon for Xfce desktop environment
 Name: 		xfce4-notifyd
-Version: 	0.2.1
-Release: 	%mkrel 2
+Version: 	0.2.2
+Release: 	%mkrel 1
 License:	GPLv3
 Group: 		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/applications/xfce4-notifyd
@@ -16,9 +16,9 @@ BuildRequires:	libxfce4util-devel
 BuildRequires:	libxfce4ui-devel
 BuildRequires:	libnotify-devel
 Requires:	xfconf
-Provides:	virtual-notification-daemon
+#Provides:	virtual-notification-daemon
 Obsoletes:	notification-daemon-xfce
-Conflicts:	notification-daemon
+#Conflicts:	notification-daemon
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
@@ -54,7 +54,7 @@ rm -rf %{buildroot}
 %{_bindir}/xfce4-notifyd-config
 %{_libdir}/xfce4/notifyd
 %{_datadir}/applications/*.desktop
-%{_datadir}/dbus-1/services/org.freedesktop.Notifications.service
+%{_datadir}/dbus-1/services/org.xfce.xfce4-notifyd.Notifications.service
 %{_iconsdir}/hicolor/*/apps/*.png
 %{_datadir}/themes/Default/xfce-notify-4.0
 %{_datadir}/themes/Smoke
