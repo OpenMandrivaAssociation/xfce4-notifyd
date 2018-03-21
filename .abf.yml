@@ -1,3 +1,4 @@
----
-sources:
+removed_sources:
   xfce4-notifyd-0.2.4.tar.bz2: 66458a41f0ddeb350e5fb2e4d7cadfef6a5066f7
+sources:
+  xfce4-notifyd-0.4.2.tar.bz2: 8a4432a81392e0ea188454c73a3947be179d0d3a
