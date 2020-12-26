@@ -48,6 +48,7 @@ Features:
 %files -f %{name}.lang
 %doc ChangeLog AUTHORS README TODO
 #_userunitdir/xfce4-notifyd.service
+%{_sysconfigdir}/xdg/autostart/xfce4-notifyd.desktop
 %{_bindir}/xfce4-notifyd-config
 %{_libdir}/xfce4/notifyd
 %{_datadir}/applications/*.desktop
