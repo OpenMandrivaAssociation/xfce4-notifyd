@@ -47,11 +47,11 @@ Features:
 
 %files -f %{name}.lang
 %doc ChangeLog AUTHORS README TODO
-%_userunitdir/xfce4-notifyd.service
+#_userunitdir/xfce4-notifyd.service
 %{_bindir}/xfce4-notifyd-config
 %{_libdir}/xfce4/notifyd
 %{_datadir}/applications/*.desktop
-%{_datadir}/dbus-1/services/org.xfce.xfce4-notifyd.Notifications.service
+#{_datadir}/dbus-1/services/org.xfce.xfce4-notifyd.Notifications.service
 %{_iconsdir}/hicolor/*/apps/*.png
 %{_iconsdir}/hicolor/*/*/*.svg
 %{_datadir}/themes/Default/xfce-notify-4.0
