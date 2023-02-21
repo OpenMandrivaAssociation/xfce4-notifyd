@@ -47,7 +47,7 @@ Features:
 %find_lang %{name} %{name}.lang
 
 %files -f %{name}.lang
-%doc ChangeLog AUTHORS README TODO
+%doc AUTHORS README* TODO
 #_userunitdir/xfce4-notifyd.service
 %{_sysconfdir}/xdg/autostart/xfce4-notifyd.desktop
 %{_bindir}/xfce4-notifyd-config
