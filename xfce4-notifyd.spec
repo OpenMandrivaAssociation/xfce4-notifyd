@@ -18,6 +18,7 @@ BuildRequires:	pkgconfig(libxfce4util-1.0) >= 4.11
 BuildRequires:	pkgconfig(libxfce4ui-2) >= 4.9.1
 BuildRequires:	pkgconfig(libxfce4panel-2.0)
 BuildRequires:	pkgconfig(libnotify)
+BuildRequires:	pkgconfig(sqlite3)
 Requires:	xfconf
 Provides:	virtual-notification-daemon
 Obsoletes:	notification-daemon-xfce
