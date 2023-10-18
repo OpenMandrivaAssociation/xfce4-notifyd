@@ -3,7 +3,7 @@
 
 Summary: 	Notification daemon for Xfce desktop environment
 Name: 		xfce4-notifyd
-Version:	0.8.2
+Version:	0.9.2
 Release:	1
 License:	GPLv3
 Group: 		Graphical desktop/Xfce
@@ -50,10 +50,12 @@ Features:
 %doc AUTHORS README* TODO
 #_userunitdir/xfce4-notifyd.service
 %{_sysconfdir}/xdg/autostart/xfce4-notifyd.desktop
+%{_prefix}/lib/systemd/user/xfce4-notifyd.service
 %{_bindir}/xfce4-notifyd-config
 %{_libdir}/xfce4/notifyd
 %{_datadir}/applications/*.desktop
-#{_datadir}/dbus-1/services/org.xfce.xfce4-notifyd.Notifications.service
+%{_datadir}/dbus-1/services/org.xfce.xfce4-notifyd.Notifications.service
+%{_datadir}/dbus-1/services/org.xfce.xfce4-notifyd.Notifyd.service
 %{_iconsdir}/hicolor/*/apps/*.png
 %{_iconsdir}/hicolor/*/*/*.svg
 %{_datadir}/themes/Default/xfce-notify-4.0
