@@ -7,7 +7,7 @@ Version:	0.9.4
 Release:	1
 License:	GPLv3
 Group: 		Graphical desktop/Xfce
-URL:		http://goodies.xfce.org/projects/applications/xfce4-notifyd
+URL:		https://goodies.xfce.org/projects/applications/xfce4-notifyd
 Source0:	http://archive.xfce.org/src/apps/%{name}/%{url_ver}/%{name}-%{version}.tar.bz2
 Source1:	xfce4-notifyd.rpmlintrc
 BuildRequires:	pkgconfig(libxfconf-0)
