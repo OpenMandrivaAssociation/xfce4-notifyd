@@ -63,6 +63,7 @@ Features:
 %{_datadir}/themes/ZOMG-PONIES!
 %{_datadir}/themes/Bright
 %{_datadir}/themes/Retro
+%{_datadir}/themes/XP-Balloon/
 %{_datadir}/xfce4/panel/plugins/notification-plugin.desktop
 %{_mandir}/man1/xfce4-notifyd-config*
 %{_libdir}/xfce4/panel/plugins/libnotification-plugin.so
