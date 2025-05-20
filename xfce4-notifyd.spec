@@ -4,7 +4,7 @@
 Summary: 	Notification daemon for Xfce desktop environment
 Name: 		xfce4-notifyd
 Version:	0.9.7
-Release:	1
+Release:	2
 License:	GPLv3
 Group: 		Graphical desktop/Xfce
 URL:		https://goodies.xfce.org/projects/applications/xfce4-notifyd
